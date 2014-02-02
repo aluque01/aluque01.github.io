@@ -1,35 +1,16 @@
 /*Portfolio Stylesheet*/ 
 
-/*body {
-   font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-   margin: 0px;
-   padding: 0px;
-}*/
-
-@font-face{
-	font-family: HelveticaNeue;
-	src:url("HelveticaN.eot");
-}
-
-@font-face {
-	font-family: HelveticaNeue; 
-	src: url("HelveticaN.ttf");
-}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300italic,100italic,100,300,700);
 
 body{
-	font-family: HelveticaNeue; 
-	font-weight: 300;
+	font-family: 'Roboto', Arial, sans-serif; 
+	font-weight: 100;
 	margin: 0px;
 	padding: 0px; 
 }
 
 html{
-	background-color: rgb(20,20,20);
-}
-
-a:hover {
-	color: red;
+	background-color: rgb(25,25,25);
 }
 
 #menu {
@@ -48,7 +29,7 @@ a:hover {
 	clear: both;
 	position: fixed;
 	color: white; 
-	top: 8px; 
+	top: -6px; 
 	left: 3%;
 	font-size:70px; 
 	text-decoration: none;
@@ -67,7 +48,7 @@ a:hover {
 	clear: both;
 	position: fixed;
 	color: white; 
-	top: 30px; 
+	top: 40px; 
 	left: 70%;
 	font-size: 30px; 
 	text-decoration: none;
@@ -80,7 +61,7 @@ a:hover {
 	clear: both;
 	position: fixed;
 	color: white; 
-	top: 30px; 
+	top: 40px; 
 	left: 90%;
 	font-size: 30px; 
 	text-decoration: none;
