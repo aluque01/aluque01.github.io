@@ -90,8 +90,8 @@ html{
 	display: inline-block;
 	height: 300px;
 	width: 300px;
-	padding-left: 60px;
-	padding-bottom: 100px; 
+	padding-left: 52px;
+	padding-bottom: 52px; 
 	border-left: 2px solid black;
 }
 
@@ -106,7 +106,7 @@ html{
 }
 
 #maincontainer{
-	height: 350px;
+	height: 300px;
 	width: 800px;
 	text-align: center;
 	padding-bottom: 50px;
